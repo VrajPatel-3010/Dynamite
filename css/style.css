@@ -13206,11 +13206,12 @@ textarea.form-control {
   position: relative;
   display: block;
   width: 100%;
-  height: 300px;
+  min-height: 300px;
 }
 
 .blog-entry {
   overflow: hidden;
+  width: inherit;
 }
 
 @media (min-width: 768px) {
@@ -13227,9 +13228,10 @@ textarea.form-control {
 
 .blog-entry .text {
   position: relative;
-  margin-top: -40px;
+  margin-top: -20px;
   background: #fff;
   width: 100%;
+  min-height: -webkit-fill-available;
 }
 
 .blog-entry .text .heading {
