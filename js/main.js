@@ -45,29 +45,33 @@
 	// Scrollax
    $.Scrollax();
 
-	var carousel = function() {
-		$('.carousel-testimony').owlCarousel({
-			center: true,
-			loop: true,
-			items:1,
-			margin: 30,
-			stagePadding: 0,
-			nav: false,
-			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
-			responsive:{
-				0:{
-					items: 1
-				},
-				600:{
-					items: 3
-				},
-				1000:{
-					items: 3
-				}
-			}
-		});
+   var carousel = function() {
+    $('.carousel-testimony').owlCarousel({
+        center: true,
+        loop: true,
+        items: 1,
+        margin: 30,
+        stagePadding: 0,
+        nav: true, // Show navigation arrows
+        dots: false, // Hide navigation dots
+        autoplay: true, // Enable autoplay
+        autoplayTimeout: 3000, // Set autoplay timeout in milliseconds
+        navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
+        responsive:{
+            0:{
+                items: 1
+            },
+            600:{
+                items: 3
+            },
+            1000:{
+                items: 3
+            }
+        }
+    });
+};
 
-	};
+
 	carousel();
 
 	$('nav .dropdown').hover(function(){
