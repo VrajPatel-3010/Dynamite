@@ -14043,12 +14043,22 @@ textarea.form-control {
   max-height: 500px;
 }
 
+.trainingText h1{
+  color: #d9bf77;
+  font-size: 40px;
+  font-weight: 300;
+  position: relative;
+}
+
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
 
   .trainingImage img {
     max-width: 400px !important;
     max-height: 400px;
+  }
+  .trainingText h1{
+    font-size: 30px;
   }
 
 }
@@ -14060,11 +14070,8 @@ textarea.form-control {
     max-width: 300px !important;
     max-height: 300px;  
   }
+  .trainingText h1{
+    font-size: 30px;
+  }
 
-}
-.trainingText h1{
-  color: #d9bf77;
-  font-size: 40px;
-  font-weight: 300;
-  position: relative;
 }
