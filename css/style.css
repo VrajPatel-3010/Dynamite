@@ -14047,7 +14047,7 @@ textarea.form-control {
 @media (max-width: 767px) {
 
   .trainingImage img {
-    max-width: 400px;
+    max-width: 400px !important;
     max-height: 400px;
   }
 
@@ -14057,8 +14057,9 @@ textarea.form-control {
 @media (max-width: 480px) {
 
   .trainingImage img {
-    max-width: 300px;
-    max-height: 300px;  }
+    max-width: 300px !important;
+    max-height: 300px;  
+  }
 
 }
 .trainingText h1{
