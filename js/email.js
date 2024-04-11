@@ -1,5 +1,5 @@
 (function () {
-	emailjs.init('nqzxQS6LeuJNLlbzs');
+	emailjs.init('');
 })();
 
 if ($('#email-form').length) {
@@ -16,8 +16,8 @@ if ($('#email-form').length) {
 		}
 		$('#email-form .response').html('<div class="text-info"><img src="images/preloader.gif"> Loading...</div>');
 		//Default
-		const serviceID = 'service_ivhx959';
-		const templateID = 'template_je2vqdu';
+		const serviceID = '';
+		const templateID = '';
 
 		var contactParams = {
 			username: username,
