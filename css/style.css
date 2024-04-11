@@ -14118,3 +14118,11 @@ textarea.form-control {
   padding: 0 10px;
   margin-bottom: 10px;
 }
+
+.red-note {
+  color: #d75b4b;
+  background-color: #fcf2f0;
+  border: 1px solid #d75b4b;
+  border-radius: 7px;
+  font-size: 1rem;
+}
