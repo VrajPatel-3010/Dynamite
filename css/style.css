@@ -14057,10 +14057,14 @@ textarea.form-control {
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+  .trainingImage {
+    margin-top: 2rem !important;
+  }
 
   .trainingImage img {
     max-width: 400px !important;
     max-height: 400px;
+
   }
 
   .trainingText h1 {
@@ -14072,6 +14076,9 @@ textarea.form-control {
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
+  .trainingImage {
+    margin-top: 2rem !important;
+  }
 
   .trainingImage img {
     max-width: 300px !important;
