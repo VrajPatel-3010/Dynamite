@@ -14085,3 +14085,29 @@ textarea.form-control {
   }
 
 }
+
+#email-form .response {
+  position: relative;
+  text-align: center;
+}
+
+#email-form .response .success {
+  background: #59ab66;
+  color: #ffffff;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+
+#email-form .response .failed {
+  background-color: #f74848;
+  color: #ffffff;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+
+#email-form .response .text-info {
+  background-color: #ffcd66;
+  color: #222222 !important;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}

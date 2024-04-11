@@ -32,25 +32,25 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-		<div class="container">
-			<a class="navbar-brand" href="index.html"><span class=""></span><img src="images/logo.png"></a></a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
-				aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="oi oi-menu"></span> Menu
-			</button>
-			<div class="collapse navbar-collapse" id="ftco-nav">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-					<!-- <li class="nav-item"><a href="treatments.html" class="nav-link">Treatments</a></li> -->
-					<li class="nav-item"><a href="specialists.html" class="nav-link">Trainings</a></li>
-					<!-- <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li> -->
-					<li class="nav-item"><a href="blog.html" class="nav-link">Client Service</a></li>
-					<li class="nav-item active"><a href="contact.html" class="nav-link">Contact</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><span class=""></span><img src="images/logo.png"></a></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+        aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="oi oi-menu"></span> Menu
+      </button>
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <!-- <li class="nav-item"><a href="treatments.html" class="nav-link">Treatments</a></li> -->
+          <li class="nav-item"><a href="specialists.html" class="nav-link">Trainings</a></li>
+          <!-- <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li> -->
+          <li class="nav-item"><a href="blog.html" class="nav-link">Client Service</a></li>
+          <li class="nav-item active"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <!-- END nav -->
 
   <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');"
@@ -90,28 +90,32 @@
         </div>
         <div class="col-md-1"></div>
         <div class="col-md-6 ftco-animate">
-          <form action="#" class="contact-form">
+          <form class="contact-form" id="email-form">
+            <div class="form-group mb-0">
+              <div class="response"></div>
+            </div>
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Your Name">
+                  <input type="text" name="username" class="username form-control" placeholder="Your Name">
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Your Email">
+                  <input type="email" name="email" class="email form-control" placeholder="Your Email">
                 </div>
               </div>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Subject">
+              <input type="text" class="subject form-control" placeholder="Subject" name="subject">
             </div>
             <div class="form-group">
-              <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+              <textarea name="" id="" cols="30" rows="7" class="message form-control" placeholder="Message"></textarea>
             </div>
             <div class="form-group">
-              <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+              <button  type="button" id="submit" value="Send Message" name="submit-form" class="btn btn-primary py-3 px-5">Send Message</button>
             </div>
+           
           </form>
         </div>
       </div>
@@ -129,25 +133,25 @@
 
 
   <footer class="ftco-footer ftco-section">
-		<div class="container">
-			<div class="row d-flex">
-				<div class="col-md-5">
-					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2">Dynamite Beauty Academy</h2>
-						<p>Dynamite Beauty Academy is your destination for professional beauty education. Our academy
-							provides top-notch training, modern facilities, and expert instructors to help you excel in
-							the beauty industry.
-						</p>
-						<ul class="ftco-footer-social list-unstyled float-lft mt-3">
-							
-							<li class="ftco-animate"><a href="https://www.facebook.com/dynamitebeautyacademy/"><span
-										class="icon-facebook"></span></a></li>
-							<li class="ftco-animate"><a href="https://www.instagram.com/dynamitebeautyacademyltd/"><span
-										class="icon-instagram"></span></a></li>
-						</ul>
-					</div>
-				</div>
-				<!-- <div class="col-md-3">
+    <div class="container">
+      <div class="row d-flex">
+        <div class="col-md-5">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Dynamite Beauty Academy</h2>
+            <p>Dynamite Beauty Academy is your destination for professional beauty education. Our academy
+              provides top-notch training, modern facilities, and expert instructors to help you excel in
+              the beauty industry.
+            </p>
+            <ul class="ftco-footer-social list-unstyled float-lft mt-3">
+
+              <li class="ftco-animate"><a href="https://www.facebook.com/dynamitebeautyacademy/"><span
+                    class="icon-facebook"></span></a></li>
+              <li class="ftco-animate"><a href="https://www.instagram.com/dynamitebeautyacademyltd/"><span
+                    class="icon-instagram"></span></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- <div class="col-md-3">
 					<div class="ftco-footer-widget mb-4 ml-md-4">
 						<h2 class="ftco-heading-2">Popular Links</h2>
 						<ul class="list-unstyled">
@@ -158,50 +162,50 @@
 						</ul>
 					</div>
 				</div> -->
-				<div class="col-md-3">
-					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2">Quick Links</h2>
-						<ul class="list-unstyled">
-							<li><a href="about.html">About</a></li>
-							<li><a href="blog.html">Client Service</a></li>
-							<li><a href="specialists.html">Specialists</a></li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md">
-					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2">Have a Questions?</h2>
-						<div class="block-23 mb-3">
-							<ul>
-								<li><a href="#"><span class="icon icon-map-marker"></span><span class="text">9557 120 St
-											unit 110,
-											Delta, BC</span></a></li>
-								<li><a href="#"><span class="icon icon-phone"></span><span class="text">+1 (604)
-											729-5999</span></a></li>
-								<li><a href="#"><span class="icon icon-envelope"></span><span
-											class="text">info@dynamitebeautyacademy.com</span></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 text-center">
+        <div class="col-md-3">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Quick Links</h2>
+            <ul class="list-unstyled">
+              <li><a href="about.html">About</a></li>
+              <li><a href="blog.html">Client Service</a></li>
+              <li><a href="specialists.html">Specialists</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Have a Questions?</h2>
+            <div class="block-23 mb-3">
+              <ul>
+                <li><a href="#"><span class="icon icon-map-marker"></span><span class="text">9557 120 St
+                      unit 110,
+                      Delta, BC</span></a></li>
+                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+1 (604)
+                      729-5999</span></a></li>
+                <li><a href="#"><span class="icon icon-envelope"></span><span
+                      class="text">info@dynamitebeautyacademy.com</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
 
-					<p class="mb-0">
-						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-						Copyright &copy;
-						<script>
-							document.write(new Date().getFullYear());
+          <p class="mb-0">
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;
+            <script>
+              document.write(new Date().getFullYear());
 
-						</script> All rights reserved
-						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-					</p>
-				</div>
-			</div>
-		</div>
-	</footer>
+            </script> All rights reserved
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
 
@@ -229,6 +233,8 @@
   <script src="js/scrollax.min.js"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="js/email.js"></script>
 
 </body>
 
