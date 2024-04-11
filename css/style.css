@@ -14036,3 +14036,34 @@ textarea.form-control {
 .carousel-testimony .owl-carousel .owl-nav .owl-next {
   right: 10px;
 }
+
+/* Training Image */
+.trainingImage img{
+  max-width: 525px;
+  max-height: 500px;
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+  .trainingImage img {
+    max-width: 400px;
+    max-height: 400px;
+  }
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+  .trainingImage img {
+    max-width: 300px;
+    max-height: 300px;  }
+
+}
+.trainingText h1{
+  color: #d9bf77;
+  font-size: 40px;
+  font-weight: 300;
+  position: relative;
+}

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Dynamite Beauty Academy</title>
+  <title>Dynamite Beauty Academy</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="icon" href="images/logo.png">
@@ -28,29 +28,35 @@
   <link rel="stylesheet" href="css/flaticon.css">
   <link rel="stylesheet" href="css/icomoon.css">
   <link rel="stylesheet" href="css/style.css">
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      document.getElementById(getParameterByName("service")).focus();
+    });
+
+  </script>
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-		<div class="container">
-			<a class="navbar-brand" href="index.html"><span class=""></span><img src="images/logo.png"></a></a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
-				aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="oi oi-menu"></span> Menu
-			</button>
-			<div class="collapse navbar-collapse" id="ftco-nav">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-					<!-- <li class="nav-item"><a href="treatments.html" class="nav-link">Treatments</a></li> -->
-					<li class="nav-item active"><a href="specialists.html" class="nav-link">Trainings</a></li>
-					<!-- <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li> -->
-					<li class="nav-item"><a href="blog.html" class="nav-link">Client Service</a></li>
-					<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><span class=""></span><img src="images/logo.png"></a></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+        aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="oi oi-menu"></span> Menu
+      </button>
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <!-- <li class="nav-item"><a href="treatments.html" class="nav-link">Treatments</a></li> -->
+          <li class="nav-item active"><a href="specialists.html" class="nav-link">Trainings</a></li>
+          <!-- <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li> -->
+          <li class="nav-item"><a href="blog.html" class="nav-link">Client Service</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <!-- END nav -->
 
   <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');"
@@ -74,111 +80,192 @@
           <h2 class="mb-1">Explor Our Trainings</h2>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-3 d-flex">
-          <div class="coach align-items-stretch">
-            <div class="img" style="background-image: url(images/trainer-1.jpg);"></div>
-            <div class="text bg-white p-4 ftco-animate">
-              <span class="subheading">Owner / Head Coach</span>
-              <h3><a href="#">Elizabeth Nelson</a></h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-                blind texts.</p>
-              <ul class="ftco-social-media d-flex mt-4">
-                <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span
-                      class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span
-                      class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span
-                      class="icon-instagram"></span></a></li>
-              </ul>
-              <p></p>
+      <!-- Add Trainings Here -->
+      <section class="ftco-section ftco-intro">
+        <div class="container">
+          <!-- Training  -->
+          <div id="1" tabindex="1">
+            <div class="row justify-content-end">
+              <div class="col-md-6 d-flex">
+                <div class="trainingImage">
+                  <img src="images/offer-deal-1.jpg">
+                </div>
+              </div>
+              <div class="col-md-6 d-flex align-items-stretch">
+                <div class="trainingText">
+                  <h1>Waxing, Facial & (BB Glow or Threading) Package</h1>
+                  <p>Unlock your potential in the beauty field with our Waxing, Facial, and BB Glow Combo! Through our
+                    tailored training, you'll learn the ins and outs of waxing, facial techniques, and the popular BB
+                    Glow
+                    treatment. Alongside our expert guidance, you'll receive a complete kit filled with essential tools
+                    and products.You'll be ready to launch your own beauty business straight after training. Take the
+                    first step towards a fulfilling career in beauty and make your mark in the industry today!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="2" tabindex="2" class="mt-3">
+            <div class="row justify-content-end">
+              <div class="col-md-6 d-flex align-items-stretch">
+                <div class="trainingText">
+                  <h1>Indian Bridal Makeup and Hairstyling Package</h1>
+                  <p>Dynamite Beauty Academy stands out as the premier choice in Canada for Indian bridal makeup and
+                    hairstyling education. Our makeup and hair training program was established to educate individuals
+                    aspiring to enter this industry by providing them with the necessary knowledge and skills. The
+                    program guides students in mastering makeup application techniques and hairstyling designs, enabling
+                    them to excel in various occasions. Throughout the training program, students are equipped with
+                    insider tips and industry secrets, empowering them to hone their abilities and talents with guidance
+                    from top professionals.
+
+
+                    At Dynamite Beauty Academy, students undergoing makeup and hair training receive a professional,
+                    comprehensive, and enlightening learning experience. They not only perfect their skills in
+                    professional hair and makeup but also gain insights into establishing their own businesses.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 d-flex">
+                <div class="trainingImage">
+                  <img src="images/Bridal Makeup 1.jpg" style="max-width: 600px;">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Training Ends -->
+          <div id="3" tabindex="3">
+            <div class="row justify-content-end">
+              <div class="col-md-6 d-flex">
+                <div class="trainingImage">
+                  <img src="images/Only makeup workshop.jpg">
+                </div>
+              </div>
+              <div class="col-md-6 d-flex align-items-stretch">
+                <div class="trainingText">
+                  <h1>Master the Art of Makeup: 2-Day Workshop</h1>
+                  <p>Enhance your makeup skills to new heights with our 2-day workshop. Designed for both beginners and
+                    experienced artists, this intensive program offers insider tips and advanced techniques to enhance
+                    your proficiency. Whether you're aiming to improve your personal makeup routine or pursue a career
+                    in the beauty industry, our workshop is tailored to help you reach your goals with confidence and
+                    flair.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="4" tabindex="4" class="mt-3">
+            <div class="row justify-content-end">
+              <div class="col-md-6 d-flex align-items-stretch">
+                <div class="trainingText">
+                  <h1>Waxing Only</h1>
+                  <p>Waxing is a method of hair removal that involves applying a layer of wax to the skin, allowing it
+                    to harden, and then quickly pulling it off, removing the hair from the root. It's a popular choice
+                    for both men and women to achieve smooth skin, commonly done on areas like legs, arms, bikini line,
+                    and face. The process can be a bit uncomfortable but results in longer-lasting smoothness compared
+                    to shaving. Additionally, frequent waxing often leads to thinner and finer regrowth over time.
+                    Overall, waxing offers a relatively efficient and effective way to maintain hair-free skin.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 d-flex">
+                <div class="trainingImage">
+                  <img src="images/Waxing-1.jpg">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="5" tabindex="5">
+            <div class="row justify-content-end">
+              <div class="col-md-6 d-flex">
+                <div class="trainingImage">
+                  <img src="images/Facial.jpg">
+                </div>
+              </div>
+              <div class="col-md-6 d-flex align-items-stretch">
+                <div class="trainingText">
+                  <h1>Facial Certificate Course</h1>
+                  <p>Discover the Facial Certificate course, your gateway to mastering essential skincare skills. Dive into practical training led by experienced professionals, covering skin whitening, anti-aging facials, wrinkle treatment, acne treatment, jelly mask, mud mask, and more. With hands-on experience and expert guidance, this course sets the stage for a rewarding journey in the beauty industry, equipping you with the confidence and expertise needed for success in skincare and esthetics.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="6" tabindex="6" class="mt-3">
+            <div class="row justify-content-end">
+              <div class="col-md-6 d-flex align-items-stretch">
+                <div class="trainingText">
+                  <h1>Hydrogen Oxygen Facial Course
+                  </h1>
+                  <p>Join our Hydrogen Oxygen Facial Course to master advanced skincare methods. Choose with or without the machine to match your learning style. Our course includes the IN 1 HYDRO DERMABRASION HYDROGEN OXYGEN FACIAL MACHINE, perfect for non-medical use and suitable for starting your own business.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 d-flex">
+                <div class="trainingImage">
+                  <img src="images/hydro.jpg">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="7" tabindex="7">
+            <div class="row justify-content-end">
+              <div class="col-md-6 d-flex">
+                <div class="trainingImage">
+                  <img src="images/micro_home.jpg">
+                </div>
+              </div>
+              <div class="col-md-6 d-flex align-items-stretch">
+                <div class="trainingText">
+                  <h1>Microblading,Powdering and Ombre Course
+                  </h1>
+                  <p>Enroll in our certification course to master Microblading, Powdering, and Ombre methods. Our comprehensive program includes training in Powdering & Ombre techniques using a digital machine provided during the course.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="8" tabindex="8" class="mt-3">
+            <div class="row justify-content-end">
+              <div class="col-md-6 d-flex align-items-stretch">
+                <div class="trainingText">
+                  <h1>Nail Certification Course</h1>
+                  <p>This intensive course provides comprehensive training in nail technology, covering a wide range of skills and techniques essential for success in the beauty industry. From sic manicures and advanced nail artistry, participants will learn the latest trends and best practices under the guidance of experienced professionals.
+                    Whether you're a beginner looking to start a rewarding career or a seasoned professional seeking to enhance your skills, this course offers the perfect opportunity to excel in the field of nail care and design.                    
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 d-flex">
+                <div class="trainingImage">
+                  <img src="images/nails_home.jpg">
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-3 d-flex">
-          <div class="coach align-items-stretch">
-            <div class="img" style="background-image: url(images/trainer-2.jpg);"></div>
-            <div class="text bg-white p-4 ftco-animate">
-              <span class="subheading">Owner / Head Coach</span>
-              <h3><a href="#">Scarlett Torres</a></h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-                blind texts.</p>
-              <ul class="ftco-social-media d-flex mt-4">
-                <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span
-                      class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span
-                      class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span
-                      class="icon-instagram"></span></a></li>
-              </ul>
-              <p></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 d-flex">
-          <div class="coach align-items-stretch">
-            <div class="img" style="background-image: url(images/trainer-3.jpg);"></div>
-            <div class="text bg-white p-4 ftco-animate">
-              <span class="subheading">Owner / Head Coach</span>
-              <h3><a href="#">Victoria Wright</a></h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-                blind texts.</p>
-              <ul class="ftco-social-media d-flex mt-4">
-                <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span
-                      class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span
-                      class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span
-                      class="icon-instagram"></span></a></li>
-              </ul>
-              <p></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 d-flex">
-          <div class="coach align-items-stretch">
-            <div class="img" style="background-image: url(images/trainer-4.jpg);"></div>
-            <div class="text bg-white p-4 ftco-animate">
-              <span class="subheading">Owner / Head Coach</span>
-              <h3><a href="#">Stella Perry</a></h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-                blind texts.</p>
-              <ul class="ftco-social-media d-flex mt-4">
-                <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span
-                      class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span
-                      class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span
-                      class="icon-instagram"></span></a></li>
-              </ul>
-              <p></p>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
+  </section>
+  </div>
   </section>
 
   <footer class="ftco-footer ftco-section">
-		<div class="container">
-			<div class="row d-flex">
-				<div class="col-md-5">
-					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2">Dynamite Beauty Academy</h2>
-						<p>Dynamite Beauty Academy is your destination for professional beauty education. Our academy
-							provides top-notch training, modern facilities, and expert instructors to help you excel in
-							the beauty industry.
-						</p>
-						<ul class="ftco-footer-social list-unstyled float-lft mt-3">
-							
-							<li class="ftco-animate"><a href="https://www.facebook.com/dynamitebeautyacademy/"><span
-										class="icon-facebook"></span></a></li>
-							<li class="ftco-animate"><a href="https://www.instagram.com/dynamitebeautyacademyltd/"><span
-										class="icon-instagram"></span></a></li>
-						</ul>
-					</div>
-				</div>
-				<!-- <div class="col-md-3">
+    <div class="container">
+      <div class="row d-flex">
+        <div class="col-md-5">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Dynamite Beauty Academy</h2>
+            <p>Dynamite Beauty Academy is your destination for professional beauty education. Our academy
+              provides top-notch training, modern facilities, and expert instructors to help you excel in
+              the beauty industry.
+            </p>
+            <ul class="ftco-footer-social list-unstyled float-lft mt-3">
+
+              <li class="ftco-animate"><a href="https://www.facebook.com/dynamitebeautyacademy/"><span
+                    class="icon-facebook"></span></a></li>
+              <li class="ftco-animate"><a href="https://www.instagram.com/dynamitebeautyacademyltd/"><span
+                    class="icon-instagram"></span></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- <div class="col-md-3">
 					<div class="ftco-footer-widget mb-4 ml-md-4">
 						<h2 class="ftco-heading-2">Popular Links</h2>
 						<ul class="list-unstyled">
@@ -189,50 +276,50 @@
 						</ul>
 					</div>
 				</div> -->
-				<div class="col-md-3">
-					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2">Quick Links</h2>
-						<ul class="list-unstyled">
-							<li><a href="about.html">About</a></li>
-							<li><a href="blog.html">Client Service</a></li>
-							<li><a href="specialists.html">Specialists</a></li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md">
-					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2">Have a Questions?</h2>
-						<div class="block-23 mb-3">
-							<ul>
-								<li><a href="#"><span class="icon icon-map-marker"></span><span class="text">9557 120 St
-											unit 110,
-											Delta, BC</span></a></li>
-								<li><a href="#"><span class="icon icon-phone"></span><span class="text">+1 (604)
-											729-5999</span></a></li>
-								<li><a href="#"><span class="icon icon-envelope"></span><span
-											class="text">info@dynamitebeautyacademy.com</span></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 text-center">
+        <div class="col-md-3">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Quick Links</h2>
+            <ul class="list-unstyled">
+              <li><a href="about.html">About</a></li>
+              <li><a href="blog.html">Client Service</a></li>
+              <li><a href="specialists.html">Specialists</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Have a Questions?</h2>
+            <div class="block-23 mb-3">
+              <ul>
+                <li><a href="#"><span class="icon icon-map-marker"></span><span class="text">9557 120 St
+                      unit 110,
+                      Delta, BC</span></a></li>
+                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+1 (604)
+                      729-5999</span></a></li>
+                <li><a href="#"><span class="icon icon-envelope"></span><span
+                      class="text">info@dynamitebeautyacademy.com</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
 
-					<p class="mb-0">
-						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-						Copyright &copy;
-						<script>
-							document.write(new Date().getFullYear());
+          <p class="mb-0">
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;
+            <script>
+              document.write(new Date().getFullYear());
 
-						</script> All rights reserved
-						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-					</p>
-				</div>
-			</div>
-		</div>
-	</footer>
+            </script> All rights reserved
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
 
@@ -262,6 +349,7 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
+
 
 </body>
 
