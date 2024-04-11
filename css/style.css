@@ -12184,14 +12184,14 @@ h5,
   }
 }
 
-.banner-text{
+.banner-text {
   font-weight: bold;
   color: #0000009c;
   background-color: #f0ffff42;
 }
 
 @media (max-width: 767.98px) {
-  .banner-text{
+  .banner-text {
     font-size: 14px;
     font-weight: normal;
   }
@@ -14018,15 +14018,20 @@ textarea.form-control {
 .carousel-testimony .owl-carousel .owl-nav .owl-prev,
 .owl-carousel .owl-nav .owl-next {
   position: absolute;
-  width: 40px; /* Adjust as needed */
-  height: 40px; /* Adjust as needed */
-  background-color: rgba(255, 255, 255, 0.8); /* Adjust as needed */
+  width: 40px;
+  /* Adjust as needed */
+  height: 40px;
+  /* Adjust as needed */
+  background-color: rgba(255, 255, 255, 0.8);
+  /* Adjust as needed */
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 44px; /* Adjust as needed */
-  color: #333; /* Adjust as needed */
+  font-size: 44px;
+  /* Adjust as needed */
+  color: #333;
+  /* Adjust as needed */
 }
 
 .carousel-testimony .owl-carousel .owl-nav .owl-prev {
@@ -14038,12 +14043,12 @@ textarea.form-control {
 }
 
 /* Training Image */
-.trainingImage img{
+.trainingImage img {
   max-width: 525px;
   max-height: 500px;
 }
 
-.trainingText h1{
+.trainingText h1 {
   color: #d9bf77;
   font-size: 40px;
   font-weight: 300;
@@ -14057,8 +14062,10 @@ textarea.form-control {
     max-width: 400px !important;
     max-height: 400px;
   }
-  .trainingText h1{
-    font-size: 30px;
+
+  .trainingText h1 {
+    font-size: 24px;
+    font-weight: 150;
   }
 
 }
@@ -14068,10 +14075,13 @@ textarea.form-control {
 
   .trainingImage img {
     max-width: 300px !important;
-    max-height: 300px;  
+    max-height: 300px;
   }
-  .trainingText h1{
-    font-size: 30px;
+
+  .trainingText h1 {
+    font-size: 24px;
+    font-weight: 150;
+
   }
 
 }
